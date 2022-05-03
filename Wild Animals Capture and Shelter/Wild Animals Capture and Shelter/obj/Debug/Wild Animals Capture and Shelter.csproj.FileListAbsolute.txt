@@ -1,0 +1,18 @@
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Debug\Wild Animals Capture and Shelter.exe.config
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Debug\Wild Animals Capture and Shelter.exe
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Debug\Wild Animals Capture and Shelter.pdb
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.csproj.AssemblyReference.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.csproj.SuggestedBindingRedirects.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\MainWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\App.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter_MarkupCompile.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter_MarkupCompile.lref
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\MainWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.g.resources
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild_Animals_Capture_and_Shelter.Properties.Resources.resources
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.csproj.GenerateResource.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.csproj.CoreCompileInputs.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.exe
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.pdb
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Registration.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Registration.baml
