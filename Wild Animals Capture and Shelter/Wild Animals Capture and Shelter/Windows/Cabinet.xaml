@@ -1,0 +1,164 @@
+﻿<Window x:Class="Wild_Animals_Capture_and_Shelter.Windows.Cabinet"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wild_Animals_Capture_and_Shelter.Windows"
+        mc:Ignorable="d" WindowStyle="None" ResizeMode="NoResize"
+        Title="Личный кабинет" Height="450" Width="1000"
+        MinHeight="450" MinWidth="1000"
+        MaxHeight="450" MaxWidth="1000"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="9*"/>
+            <RowDefinition Height="2*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="10*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+
+        <Border Grid.ColumnSpan="4" Grid.RowSpan="4" 
+                Grid.Row="1"
+                BorderThickness="0"
+                Background="{StaticResource SecondBackground}" Margin="31,0,300,0"
+                CornerRadius="45"/>
+
+        <GroupBox Grid.Column="2" Grid.Row="1" 
+                  Header="Логин" FontSize="16" 
+                  Margin="15" BorderBrush="White">
+            <TextBox  x:Name="loginBox" Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                      GotFocus="loginBox_GotFocus"
+                      LostFocus="loginBox_LostFocus"/>
+        </GroupBox>
+
+        <GroupBox Grid.Column="2" Grid.Row="2" 
+                  Header="Пароль" FontSize="16" 
+                  Margin="15" BorderBrush="White">
+            <TextBox x:Name="passwordBox"  Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     GotFocus="passwordBox_GotFocus"
+                     LostFocus="passwordBox_LostFocus"/>
+        </GroupBox>
+
+        <GroupBox Grid.Column="1" Grid.Row="1" 
+                  Header="Имя" FontSize="16"
+                  Margin="15" BorderBrush="White">
+            <TextBox x:Name="nameBox" 
+                Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     GotFocus="nameBox_GotFocus"
+                     LostFocus="nameBox_LostFocus"/>
+        </GroupBox>
+
+        <GroupBox Grid.Column="1" Grid.Row="2" 
+                  Header="Фамилия" FontSize="16" 
+                  Margin="15" BorderBrush="White">
+            <TextBox x:Name="surnameBox"  Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     GotFocus="surnameameBox_GotFocus"
+                     LostFocus="surnameameBox_LostFocus"/>
+        </GroupBox>
+
+        <GroupBox Grid.Column="1" Grid.Row="3" 
+                  Header="Телефон" FontSize="16" 
+                  Margin="15" BorderBrush="White">
+            <TextBox x:Name="phoneBox"  Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     GotFocus="phoneBox_GotFocus"
+                     LostFocus="phoneBox_LostFocus"/>
+        </GroupBox>
+
+        <GroupBox Grid.Column="1" Grid.Row="4" 
+                  Header="Электронная почта" FontSize="16" 
+                  Margin="15" BorderBrush="White">
+            <TextBox x:Name="mailBox"  Text="Введите данные" 
+                     Foreground="Black"
+                     FontSize="18"
+                     VerticalContentAlignment="Center"
+                     GotFocus="mailBox_GotFocus"
+                     LostFocus="mailBox_LostFocus"/>
+        </GroupBox>
+
+        <Border Grid.Column="3" Grid.Row="1" 
+                Grid.RowSpan="3" Margin="25"
+                BorderThickness="5"
+                CornerRadius="3" Background="{StaticResource SecondBackground}">
+
+            <Image x:Name="iPhoto" Margin="15"/>
+
+        </Border>
+
+        <Button HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Grid.Column="2" Grid.Row="4" Height="55" Width="153"
+                    Content="Сохранить" FontSize="20" BorderBrush="{x:Null}" 
+                    Background="{StaticResource Accent}" Click="Button_Click_1"
+                >
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Grid Grid.Row="4" Grid.Column="3" Margin="25,0,25,0">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button  Content="Назад" FontSize="16" 
+                     Click="Button_Click" Grid.Column="1"
+                     BorderBrush="{x:Null}"
+                     Background="{StaticResource Accent}"
+                     Width="75" Height="45" VerticalAlignment="Center" 
+                     HorizontalAlignment="Center">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <Button Content="Изменить фото" FontSize="16" BorderBrush="{x:Null}"
+                    Background="{StaticResource Accent}"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center" Height="53" Width="123" Click="Button_Click_2">
+                <Button.Resources>
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+        </Grid>
+
+        <GroupBox Header="Пол" Grid.Row="3" Grid.Column="2"
+                      FontSize="16"   Margin="60,10,60,10"
+                      BorderBrush="White">
+            <ComboBox x:Name="GenderBox" Margin="5" 
+                      BorderThickness="0" DisplayMemberPath="Title"/>
+        </GroupBox>
+    </Grid>
+</Window>

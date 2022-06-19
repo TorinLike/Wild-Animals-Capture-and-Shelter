@@ -16,3 +16,21 @@ C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Ca
 C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Wild Animals Capture and Shelter.pdb
 C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Registration.g.cs
 C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Registration.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AddAnimalWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AddWorkerWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AnimalList.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\BringHome.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\CaptureWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Forgot.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Workers.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AddAnimalWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AddWorkerWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\AnimalList.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\BringHome.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\CaptureWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Forgot.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Workers.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Cabinet.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\Cabinet.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\CaptureJournalWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Debug\Windows\CaptureJournalWindow.baml

@@ -1,0 +1,46 @@
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\Wild Animals Capture and Shelter.exe.config
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\Wild Animals Capture and Shelter.exe
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\Wild Animals Capture and Shelter.pdb
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.csproj.AssemblyReference.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.csproj.SuggestedBindingRedirects.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AddAnimalWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AddWorkerWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AnimalList.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Cabinet.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\CaptureJournalWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\CaptureWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Forgot.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\MainWindow.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Registration.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Workers.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\App.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter_MarkupCompile.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter_MarkupCompile.lref
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AddAnimalWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AddWorkerWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\AnimalList.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Cabinet.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\CaptureJournalWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\CaptureWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Forgot.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\MainWindow.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Registration.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\Workers.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.g.resources
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild_Animals_Capture_and_Shelter.Properties.Resources.resources
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.csproj.GenerateResource.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.csproj.CoreCompileInputs.cache
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.exe
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.pdb
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\EntityFramework.dll
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\EntityFramework.xml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\bin\Release\ru\EntityFramework.resources.dll
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter_Content.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Wild Animals Capture and Shelter.csproj.CopyComplete
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\EditWorker.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\EditWorker.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\EditAnimal.g.cs
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\Windows\EditAnimal.baml
+C:\Users\TorinLike\source\repos\Wild Animals Capture and Shelter\Wild Animals Capture and Shelter\obj\Release\App.baml

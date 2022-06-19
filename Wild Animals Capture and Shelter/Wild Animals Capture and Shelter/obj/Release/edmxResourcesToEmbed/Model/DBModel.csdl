@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="WACSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Animal">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="GenderID" Type="Int32" Nullable="false" />
+    <Property Name="SpeciesID" Type="Int32" Nullable="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="Notes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="StatusID" Type="Int32" Nullable="false" />
+    <Property Name="ShelterID" Type="Int32" />
+    <NavigationProperty Name="Gender" Relationship="Self.FK_Animal_Gender" FromRole="Animal" ToRole="Gender" />
+    <NavigationProperty Name="Shelter" Relationship="Self.FK_Animal_Shelter" FromRole="Animal" ToRole="Shelter" />
+    <NavigationProperty Name="Species" Relationship="Self.FK_Animal_Species1" FromRole="Animal" ToRole="Species" />
+    <NavigationProperty Name="Status" Relationship="Self.FK_Animal_Status" FromRole="Animal" ToRole="Status" />
+  </EntityType>
+  <EntityType Name="CaptureHistory">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Address" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="SpeciesID" Type="Int32" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Species" Relationship="Self.FK_CaptureHistory_Species" FromRole="CaptureHistory" ToRole="Species" />
+  </EntityType>
+  <EntityType Name="Gender">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Animal_Gender" FromRole="Gender" ToRole="Animal" />
+    <NavigationProperty Name="Profile" Relationship="Self.FK_Profile_Gender" FromRole="Gender" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="Profile">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Login" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Surname" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Phone" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Photo" Type="Binary" MaxLength="Max" FixedLength="false" />
+    <Property Name="GenderID" Type="Int32" Nullable="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Gender" Relationship="Self.FK_Profile_Gender" FromRole="Profile" ToRole="Gender" />
+    <NavigationProperty Name="Role" Relationship="Self.FK_Profile_Role" FromRole="Profile" ToRole="Role" />
+  </EntityType>
+  <EntityType Name="Role">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Profile" Relationship="Self.FK_Profile_Role" FromRole="Role" ToRole="Profile" />
+  </EntityType>
+  <EntityType Name="Shelter">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Animal_Shelter" FromRole="Shelter" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="Species">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Animal_Species1" FromRole="Species" ToRole="Animal" />
+    <NavigationProperty Name="CaptureHistory" Relationship="Self.FK_CaptureHistory_Species" FromRole="Species" ToRole="CaptureHistory" />
+  </EntityType>
+  <EntityType Name="Status">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Title" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Animal" Relationship="Self.FK_Animal_Status" FromRole="Status" ToRole="Animal" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Animal_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Shelter">
+    <End Role="Shelter" Type="Self.Shelter" Multiplicity="0..1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Shelter">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="ShelterID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Species1">
+    <End Role="Species" Type="Self.Species" Multiplicity="1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Species">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="SpeciesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Animal_Status">
+    <End Role="Status" Type="Self.Status" Multiplicity="1" />
+    <End Role="Animal" Type="Self.Animal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Status">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Animal">
+        <PropertyRef Name="StatusID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_CaptureHistory_Species">
+    <End Role="Species" Type="Self.Species" Multiplicity="1" />
+    <End Role="CaptureHistory" Type="Self.CaptureHistory" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Species">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="CaptureHistory">
+        <PropertyRef Name="SpeciesID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Profile_Gender">
+    <End Role="Gender" Type="Self.Gender" Multiplicity="1" />
+    <End Role="Profile" Type="Self.Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Gender">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="GenderID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Profile_Role">
+    <End Role="Role" Type="Self.Role" Multiplicity="1" />
+    <End Role="Profile" Type="Self.Profile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Role">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="Profile">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="WACSEntities5" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Animal" EntityType="Self.Animal" />
+    <EntitySet Name="CaptureHistory" EntityType="Self.CaptureHistory" />
+    <EntitySet Name="Gender" EntityType="Self.Gender" />
+    <EntitySet Name="Profile" EntityType="Self.Profile" />
+    <EntitySet Name="Role" EntityType="Self.Role" />
+    <EntitySet Name="Shelter" EntityType="Self.Shelter" />
+    <EntitySet Name="Species" EntityType="Self.Species" />
+    <EntitySet Name="Status" EntityType="Self.Status" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" />
+    <AssociationSet Name="FK_Animal_Gender" Association="Self.FK_Animal_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Shelter" Association="Self.FK_Animal_Shelter">
+      <End Role="Shelter" EntitySet="Shelter" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Species1" Association="Self.FK_Animal_Species1">
+      <End Role="Species" EntitySet="Species" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Animal_Status" Association="Self.FK_Animal_Status">
+      <End Role="Status" EntitySet="Status" />
+      <End Role="Animal" EntitySet="Animal" />
+    </AssociationSet>
+    <AssociationSet Name="FK_CaptureHistory_Species" Association="Self.FK_CaptureHistory_Species">
+      <End Role="Species" EntitySet="Species" />
+      <End Role="CaptureHistory" EntitySet="CaptureHistory" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Profile_Gender" Association="Self.FK_Profile_Gender">
+      <End Role="Gender" EntitySet="Gender" />
+      <End Role="Profile" EntitySet="Profile" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Profile_Role" Association="Self.FK_Profile_Role">
+      <End Role="Role" EntitySet="Role" />
+      <End Role="Profile" EntitySet="Profile" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

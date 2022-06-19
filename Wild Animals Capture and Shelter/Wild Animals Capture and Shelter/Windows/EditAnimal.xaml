@@ -1,0 +1,103 @@
+﻿<Window x:Class="Wild_Animals_Capture_and_Shelter.Windows.EditAnimal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wild_Animals_Capture_and_Shelter.Windows"
+        mc:Ignorable="d" WindowStyle="None" ResizeMode="NoResize"
+        Title="Изменение данных животного" Height="372" Width="550"
+        MinHeight="372" MinWidth="550"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="20*"/>
+            <RowDefinition Height="15*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <TextBox Grid.Row="2" Grid.Column="1" x:Name="NoteBox"
+                 Margin="15" Text="Введите данные" 
+                 Foreground="Black" FontSize="20" 
+                 BorderBrush="{DynamicResource SecondBackground}"
+                 BorderThickness="3" GotFocus="TextBox_GotFocus"  LostFocus="NoteBox_LostFocus"/>
+
+        <Border Grid.Row="1" BorderThickness="3" 
+                BorderBrush="{DynamicResource SecondBackground}" Margin="227,78,23,94" Grid.Column="1"/>
+
+        <Grid Grid.Row="1" Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Margin="17,0,51,0" CornerRadius="30" Background="{DynamicResource SecondBackground}" BorderBrush="{DynamicResource SecondBackground}">
+                <Image x:Name="iPhoto" Margin="15,0,15,0"/>
+            </Border>
+
+            <TextBox x:Name="NameBox"
+                       Text="Кличка" FontSize="40"
+                       VerticalAlignment="Top" Margin="227,22,23,0" Grid.ColumnSpan="2"/>
+
+            <Button Content="+" x:Name="AddImageBut"
+                    VerticalAlignment="Bottom"
+                    VerticalContentAlignment="Top"
+                    HorizontalAlignment="Left"
+                    FontSize="24" Height="35" Width="35" 
+                    Background="{DynamicResource Accent}" BorderThickness="0" Margin="192,0,0,0" Click="Button_Click">
+                <Button.Resources >
+                    <Style TargetType="{x:Type Border}">
+                        <Setter Property="CornerRadius" Value="7"/>
+                    </Style>
+                </Button.Resources>
+            </Button>
+
+            <GroupBox Grid.Column="1" Header="Вид"
+                    VerticalAlignment="Bottom"
+                    HorizontalAlignment="Right"
+                      FontSize="16" Width="86">
+                <ComboBox x:Name="SpecBox" DisplayMemberPath="Title"/>
+            </GroupBox>
+            <GroupBox Header="Пол"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                FontSize="16" Width="66" Margin="0,0,193,0" Grid.ColumnSpan="2">
+                <ComboBox x:Name="GenderBox" DisplayMemberPath="Title"/>
+            </GroupBox>
+            <GroupBox Header="Приют"
+                VerticalAlignment="Bottom"
+                HorizontalAlignment="Right"
+                FontSize="16" Width="86" Margin="0,0,97,0" Grid.Column="1">
+                <ComboBox x:Name="ShelterBox" DisplayMemberPath="Name"/>
+            </GroupBox>
+        </Grid>
+
+        <Button Content="Назад" Name="BackButton" Grid.Row="3"
+                Margin="32,2,0,0" HorizontalAlignment="Left" 
+                Click="BackButton_Click" Grid.ColumnSpan="2" Width="60" 
+                Background="{DynamicResource Accent}" BorderThickness="0" BorderBrush="{x:Null}">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Content="Сохранить" x:Name="BackButton_Copy" 
+            Grid.Column="1" Grid.Row="3"
+            Margin="392,1,0,1" HorizontalAlignment="Left" 
+                Grid.ColumnSpan="2" Width="94" Background="{DynamicResource Accent}" BorderBrush="{x:Null}" Click="BackButton_Copy_Click">
+            <Button.Resources>
+                <Style TargetType="{x:Type Border}">
+                    <Setter Property="CornerRadius" Value="7"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+    </Grid>
+</Window>
